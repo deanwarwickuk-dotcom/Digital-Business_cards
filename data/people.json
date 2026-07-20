@@ -6,7 +6,7 @@
     "email": "tarryn@sisco.co.za",
     "website": "https://www.sisco.co.za/",
     "accent": "#2563eb"
-  },
+  
    "john-doe": {
     "name": "John Doe",
     "title": "Product Manager",
@@ -28,7 +28,7 @@
     "linkedin": "https://linkedin.com/in/johndoe",
     "photo": "https://i.pravatar.cc/300?img=12",
     "accent": "#2563eb"
-     },
+     
    "john-doe": {
     "name": "John Doe",
     "title": "Product Manager",
@@ -40,7 +40,7 @@
     "photo": "https://i.pravatar.cc/300?img=12",
     "accent": "#2563eb"
 }
-    },
+    
    "john-doe": {
     "name": "John Doe",
     "title": "Product Manager",
@@ -52,7 +52,7 @@
     "photo": "https://i.pravatar.cc/300?img=12",
     "accent": "#2563eb"
 }
-  },
+  
    "john-doe": {
     "name": "John Doe",
     "title": "Product Manager",
@@ -64,7 +64,7 @@
     "photo": "https://i.pravatar.cc/300?img=12",
     "accent": "#2563eb"
 }
-  },
+  
    "john-doe": {
     "name": "John Doe",
     "title": "Product Manager",
@@ -76,7 +76,7 @@
     "photo": "https://i.pravatar.cc/300?img=12",
     "accent": "#2563eb"
 }
-  },
+  
    "john-doe": {
     "name": "John Doe",
     "title": "Product Manager",
@@ -88,7 +88,7 @@
     "photo": "https://i.pravatar.cc/300?img=12",
     "accent": "#2563eb"
 }
-  },
+  
    "john-doe": {
     "name": "John Doe",
     "title": "Product Manager",
@@ -100,7 +100,7 @@
     "photo": "https://i.pravatar.cc/300?img=12",
     "accent": "#2563eb"
 }
-  },
+  
    "john-doe": {
     "name": "John Doe",
     "title": "Product Manager",
@@ -112,7 +112,7 @@
     "photo": "https://i.pravatar.cc/300?img=12",
     "accent": "#2563eb"
 }
-  },
+  
    "john-doe": {
     "name": "John Doe",
     "title": "Product Manager",
@@ -124,7 +124,7 @@
     "photo": "https://i.pravatar.cc/300?img=12",
     "accent": "#2563eb"
 }
-  },
+  
    "john-doe": {
     "name": "John Doe",
     "title": "Product Manager",
