@@ -117,7 +117,7 @@ function renderCard(p, key, origin) {
         ? `background-image:url('${escapeAttr(p.logo)}');background-size:contain;background-repeat:no-repeat;background-position:center;background-color:#fff;`
         : ""
     }"></div>
-    <div class="info" style="margin-top:24px;">
+    <div class="info" style="margin-top:24px;text-align:center;">
       <h1>${escapeHtml(p.name)}</h1>
       <p>${escapeHtml(p.title || "")}${p.company ? " · " + escapeHtml(p.company) : ""}</p>
     </div>
