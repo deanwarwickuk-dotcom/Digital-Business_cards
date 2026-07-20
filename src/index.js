@@ -121,7 +121,7 @@ function renderCard(p, key, origin) {
     <div class="banner"></div>
     <div class="avatar-wrap">
       ${
-        p.photo
+        p.logo
           ? `<img class="avatar" src="${escapeAttr(p.photo)}" alt="${escapeAttr(p.name)}" />`
           : `<div class="avatar">${escapeHtml(initials)}</div>`
       }
