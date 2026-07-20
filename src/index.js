@@ -91,14 +91,8 @@ function renderCard(p, key, origin) {
     box-shadow: 0 10px 40px rgba(0,0,0,0.12);
     overflow: hidden;
   }
-  .banner { height: 90px; background: var(--accent); }
-  .avatar-wrap { display: flex; justify-content: center; margin-top: -55px; }
-  .avatar {
-    width: 110px; height: 110px; border-radius: 50%;
-    border: 5px solid #fff; object-fit: cover;
-    background: var(--accent); color: #fff;
-    display: flex; align-items: center; justify-content: center;
-    font-size: 36px; font-weight: 600;
+  .banner { height: 160px; background: var(--accent); }
+  
   }
   .info { text-align: center; padding: 12px 24px 8px; }
   .info h1 { margin: 0; font-size: 22px; color: #111; }
@@ -123,10 +117,7 @@ function renderCard(p, key, origin) {
         ? `background-image:url('${escapeAttr(p.logo)}');background-size:contain;background-repeat:no-repeat;background-position:center;background-color:#fff;`
         : ""
     }"></div>
-    <div class="avatar-wrap">
-      <div class="avatar">${escapeHtml(initials)}</div>
-    </div>
-    <div class="info">
+    <div class="info" style="margin-top:24px;">
       <h1>${escapeHtml(p.name)}</h1>
       <p>${escapeHtml(p.title || "")}${p.company ? " · " + escapeHtml(p.company) : ""}</p>
     </div>
