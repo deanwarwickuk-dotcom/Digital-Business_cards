@@ -117,14 +117,14 @@ function renderCard(p, key, origin) {
 </style>
 </head>
 <body>
-  <div class="card">
-    <div class="banner"></div>
+<div class="card">
+    <div class="banner" style="${
+      p.logo
+        ? `background-image:url('${escapeAttr(p.logo)}');background-size:contain;background-repeat:no-repeat;background-position:center;background-color:#fff;`
+        : ""
+    }"></div>
     <div class="avatar-wrap">
-      ${
-        p.logo
-          ? `<img class="avatar" src="${escapeAttr(p.photo)}" alt="${escapeAttr(p.name)}" />`
-          : `<div class="avatar">${escapeHtml(initials)}</div>`
-      }
+      <div class="avatar">${escapeHtml(initials)}</div>
     </div>
     <div class="info">
       <h1>${escapeHtml(p.name)}</h1>
