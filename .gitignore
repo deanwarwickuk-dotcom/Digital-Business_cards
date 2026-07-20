@@ -1,8 +1,2 @@
 node_modules/
 .wrangler/
-nfc-business-cards/
-├── data/people.json          ← add every person here (one JSON entry each)
-├── functions/card/[name].js  ← renders the styled card page
-├── functions/vcard/[name].js ← "Save to Contacts" .vcf download
-├── public/index.html         ← landing page at the root domain
-└── README.md

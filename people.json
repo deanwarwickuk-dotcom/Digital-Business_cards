@@ -1,0 +1,24 @@
+{
+  "john-doe": {
+    "name": "John Doe",
+    "title": "Product Manager",
+    "company": "Acme Inc.",
+    "phone": "+1 555 010 0100",
+    "email": "john@acme.com",
+    "website": "https://acme.com",
+    "linkedin": "https://linkedin.com/in/johndoe",
+    "photo": "https://i.pravatar.cc/300?img=12",
+    "accent": "#2563eb"
+  },
+  "jane-smith": {
+    "name": "Jane Smith",
+    "title": "Head of Design",
+    "company": "Acme Inc.",
+    "phone": "+1 555 010 0101",
+    "email": "jane@acme.com",
+    "website": "https://acme.com",
+    "linkedin": "https://linkedin.com/in/janesmith",
+    "photo": "https://i.pravatar.cc/300?img=47",
+    "accent": "#db2777"
+  }
+}

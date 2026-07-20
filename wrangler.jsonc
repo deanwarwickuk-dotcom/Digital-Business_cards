@@ -1,0 +1,9 @@
+{
+  "name": "nfc-business-cards",
+  "compatibility_date": "2026-07-20",
+  "main": "src/index.js",
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS"
+  }
+}
