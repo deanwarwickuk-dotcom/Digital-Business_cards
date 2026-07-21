@@ -126,6 +126,7 @@ function renderCard(p, key, origin) {
         <span class="icon">📇</span> Save to Contacts
       </a>
       ${p.phone ? `<a class="btn" href="tel:${escapeAttr(p.phone)}"><span class="icon">📞</span> ${escapeHtml(p.phone)}</a>` : ""}
+      ${p.phone2 ? `<a class="btn" href="tel:${escapeAttr(p.phone2)}"><span class="icon">📞</span> ${escapeHtml(p.phone2)}</a>` : ""}
       ${p.email ? `<a class="btn" href="mailto:${escapeAttr(p.email)}"><span class="icon">✉️</span> ${escapeHtml(p.email)}</a>` : ""}
       ${p.website ? `<a class="btn" href="${escapeAttr(p.website)}" target="_blank" rel="noopener"><span class="icon">🌐</span> Website</a>` : ""}
       ${p.linkedin ? `<a class="btn" href="${escapeAttr(p.linkedin)}" target="_blank" rel="noopener"><span class="icon">💼</span> LinkedIn</a>` : ""}
@@ -156,6 +157,7 @@ function buildVCard(p) {
     p.title ? `TITLE:${p.title}` : "",
     p.company ? `ORG:${p.company}` : "",
     p.phone ? `TEL;TYPE=CELL:${p.phone}` : "",
+     p.phone2 ? `TEL;TYPE=WORK:${p.phone2}` : "",
     p.email ? `EMAIL:${p.email}` : "",
     p.website ? `URL:${p.website}` : "",
     "END:VCARD",
